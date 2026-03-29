@@ -1,4 +1,4 @@
-# 🧠 GLAB: Generative Human-Like Arabic Brain
+# 🧠 GLAB: Separated-Attention Mechanism
 
 ![Status](https://img.shields.io/badge/status-research-blue)
 ![Language](https://img.shields.io/badge/language-Python-yellow)
@@ -13,7 +13,7 @@ Tokenization techniques have rapidly evolved to assist Large Language Models (LL
 Following the release of BERT [1], which stands for Bidirectional Encoder Representations from Transformers. Throughout introduction the WordPiece tokenizer has been empowered [5], a likelihood based subword selection method, which chose the subword based on the impact on a language model’s probability, and the continuation marker “##” provides the model these segments follow the previous piece. As an illustration, consider a sentence like “internationalization”, which can be segmented as “inter”, “##nation”, “##al”, and “ization”. These advancements guide toward GPT-2 [6], a byte level BPE tokenizer [7], which can work across all languages. For instance, consider a word like “café123”, which will be segmented as “__caf”, “é”, and “123”. This manner of tokenization allowed the field to thrive rapidly.
 These tokenizers are robust for affixation based languages such as English, French, Spanish, German, Swedish, Norwegian, Danish, and Italian. However, root-based languages such as Arabic, Hebrew, and Aramaic, are difficult to explore for semantic meanings due to massive vocabulary size, morphological complexity, and orthographic variations. As an illustration, Arabic has over 12 million words, stemming out of a root-base system where one root can have a massive number of words. As an example, consider a word such as write (ktb), which can produce wrote (kataba), book (kitab), katib (writer), and desk (maktab). Consequently, the fragile tokenization techniques used to generate meaningful chunks turn out to be a pivotal factor of Large Language Models (LLMs) degradation for root-base languages.
 
-In this work we propose the “GLAB Generative Human-Like Arabic Brain”, a tokenization method base on BERT that consists of separated two BERTs characters-to-word and words-to-sentence embeddings, allowing the encoder to obtain semantics of these words, and trains the model on word embeddings instead of characters, which will makes the training faster. 
+In this work we propose the “GLAB Separated-Attention Mechanism”, a tokenization method base on BERT that consists of separated two BERTs characters-to-word and words-to-sentence embeddings, allowing the encoder to obtain semantics of these words, and trains the model on word embeddings instead of characters, which will makes the training faster. 
 
 
 ## 🚨 Problem
