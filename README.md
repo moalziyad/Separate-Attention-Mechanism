@@ -67,4 +67,4 @@ Supervisor: Dr. Mohammed Alfaki
 
 ## 📜 License
 
-MIT License
+MIT License.
