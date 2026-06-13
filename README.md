@@ -61,7 +61,7 @@ Characters → Character Encoder → Word Embeddings → Context Encoder → Sen
 ## 👥 Authors
 
 - Mohammed S. Alziyad  
-- Abdullah E. Alsuwaidan  
+- Abdullah E. Alswaidan  
 
 Supervisor: Dr. Mohammed Alfaki
 
